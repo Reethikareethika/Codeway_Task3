@@ -1,0 +1,250 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <style>
+                body{
+                    background-color: whitesmoke;
+                }
+                #a{
+                    display: flex;
+                    position: absolute;
+                    top:0%;
+                    padding: 20px;
+                    background-color:white;
+                    height: 50px;
+                    width: 100%;
+                    z-index: 2;
+                }
+                #img1{
+                    
+                    height: 70px;
+                    width: 100px;
+                    z-index: 5;
+                }
+                
+                #a1{
+                    position: relative;
+                    left:10px;
+                    top:20px;
+
+                }
+                #a2{
+                    position: relative;
+                    left:30px;
+                    top:20px;
+                }
+                #a3{
+                    position: relative;
+                    left:50px;
+                    top:20px;
+                }
+                #a4{
+                    position: relative;
+                    left: 70px;
+                    top:20px;
+                }
+                #a5{
+                    position: relative;
+                    left: 90px;
+                    top:20px;
+                }
+                #a6{
+                    position: relative;
+                    left: 110px;
+                    top:20px;
+                }
+                #a7{
+                    position: relative;
+                    left:115px;
+                    color: red;
+                    top:10px;
+                    
+                }
+                #a8{
+                    position: relative;
+                    left:130px;
+                    top:20px;
+                    
+                    
+                }
+                #img2{
+                    height: 20px;
+                    width: 20px;
+                    background-color: white;
+                    position: relative;
+                    left: 270px;
+                    bottom: 25px;
+                }
+                #s{
+                    width: 300px;
+                    height: 30px;
+                }
+                #a9{
+                    position: relative;
+                    left: 150px;
+                    top:20px;
+                }
+                #img3{
+                    height: 20px;
+                    width: 20px;
+                    
+                }
+                #a10{
+                    font-size: small;
+                    margin-left: 125px;
+                    margin-top: 45px;
+                    color:black;
+                }
+                #a11{
+                    position: relative;
+                    left: 40px;
+                    top: 20px;
+                   
+                
+                }
+                #img4{
+                    height: 20px;
+                    width: 20px; 
+                }
+                #a12{
+                    font-size: small;
+                    margin-left: 10px;
+                    margin-top: 45px;
+                    color:black;
+
+                }
+                #a13{
+                    position: relative;
+                    left: 40px;
+                    top: 20px;
+
+                }
+                #img5{
+                    height: 20px;
+                    width: 20px; 
+
+                }
+                #a14{
+                    font-size: small;
+                    margin-left: 20px;
+                    margin-top: 45px;
+                    color:black;
+                    
+
+                }
+                
+                
+                
+                #b1{
+                    height: 100px;
+                    width: 800px;
+                    background-image: url(https://img.freepik.com/premium-photo/blue-cardboard-texture-background_469558-8452.jpg);
+                    padding-left: 500px;
+                    font-size: xx-large;
+                    color: white; 
+                }
+                #ap{
+                   position: relative;
+                   bottom: 10px;
+                   height: 100px;
+                   border-radius: 70px;
+                }
+                u{
+                    position: relative;
+                    bottom: 70px;
+                }
+                #c{
+                    display: flex;
+
+                }
+                #img6{
+                    height: 40px;
+                    margin-top: 20px;
+                }
+                #img7{
+                    height: 20px;
+                    margin-top: 20px;
+                    margin-right: 50px;
+                }
+                #c{
+                    display: flex;
+                    justify-content: space-evenly;
+                    margin-top: 20px;
+                }
+                #img9{
+                    height: 500px;
+                }
+                #d{
+                    display: flex;
+                    justify-content: space-evenly;
+                    margin-top: 10px;
+                    
+                }
+                #img9{
+                    height: 250px;
+                    
+                }
+                #img10{
+                    height: 250px;
+                }
+                #img11{
+                    height: 250px;
+                }
+                #img12{
+                    height: 250px;
+                }
+                
+    
+            
+                
+                
+                
+                
+            </style>
+
+        </head>
+        <body>
+            <div id="a">
+                <div><img  id="img1" src="https://images.indianexpress.com/2021/01/myntra.png"></div>
+                <div id="a1">MEN</div>
+                <div id="a2">WOMEN</div>
+                <div id="a3">KIDS</div>
+                <div id="a4">HOME&LIVING</div>
+                <div id="a5">BEAUTY</div>
+                <div id="a6">STUDIO</div>
+                <div id="a7">new</div>
+                <div id="a8"><input id="s" placeholder="search for products,brands and other"><img id="img2" src="https://cdn-icons-png.flaticon.com/128/5423/5423194.png"></div>
+                <div id="a9"><img id="img3" src="https://cdn-icons-png.flaticon.com/128/1621/1621561.png"></div>
+                <div id="a10"><b>profile</b></div>
+                <div id="a11"><img id="img4" src="https://cdn-icons-png.flaticon.com/128/151/151910.png"></div>
+                <div id="a12"><b>Wishlist</b></div>
+                <div id="a13"><img id="img5" src="https://cdn-icons-png.flaticon.com/128/11530/11530382.png"></div>
+                <div id="a14"><b>bag</b></div>
+               <div id="a15"><img id="img6" src="https://media-s3-us-east-1.ceros.com/cn-india/images/2020/11/26/d461f68ab2b3e36bb3c3721bf770c37d/image.svg"></div>
+               <div id="a16"><img id="img7" src=https://cdn-icons-png.flaticon.com/128/2529/2529521.png></div>
+                </div>
+                <div id="b">
+                    <div id="b1"><b>CRAZY DEALES</b></div>
+                    <div id="b1"><b><u>CRAZY DEALES</u>
+                        <img  id= "ap"src="https://cdn-icons-png.flaticon.com/128/5990/5990752.png"> </div>
+                </div>
+                <div id="c">
+                    <img id="img8"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2EePMzxg5KmXmf-BTTbg-tLUnBasZI7_QyvJyG5MkeoN-68QglCibcefIU1Cv0Q1MU08&usqp=CAU">
+                    <img id="img8" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX5C-0bbYe9V7IP0jZyCg-o34Loqu6rhPkGySsN1cGLoRzEVxdwBLNVpyXKP2FGeuDJvI&usqp=CAU">
+                    <img id="img8"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVxDnIqAipVQyQXpugm0S9e69EYvlKmv1srCkfBN1L9cdwG1QY3hekfdGM8yWeE52udN8&usqp=CAU">
+                    <img id="img8"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnAziDwfS3aRhO1HbZNdX5nGun9LzGkIMMreiqR_dGIXTJJHWU_7gqVuKGJLPi5oqRVng&usqp=CAU">
+                </div>
+                <div id="d">
+                    <img id="img9" src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2023/8/16/5275279b-4cba-4718-b880-dd065b36105c1692167205227-aj1.jpg">
+                    <img id="img10" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiyXK1MlSx9vh9j69ZsQAw8i4n5QdfKllv5HDINoqlIflYJ8jXz1s2nLz4QcKopXOeklA&usqp=CAU">
+                   <img id="img11" src="https://www.zingoy.com/blog/wp-content/uploads/2021/08/a4b54b6e-0865-45f3-9e0d-5ab4ccb6751d1627557703867-00_header-1.jpg">
+                    <img id="img12"src="https://cdn.zeebiz.com/sites/default/files/2023/09/30/262956-my.png?im=FitAndFill=(1200,900)">
+                   
+                </div>
+
+                
+
+                
+            
+        </body>
+    </html>
